@@ -236,4 +236,58 @@ header .navigation li a:hover {
 
 /* ------------ TESTIMONIALS SECTION ------------ */
 
+.testimonials {
+  background: url('./img/bg2.jpg');
+  background-size: cover;
+}
+
+.white h2,
+.white p {
+  color: #fff;
+}
+
+.testimonials .content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-top: 40px;
+}
+
+.testimonials .content .box {
+  width: 340px;
+  margin: 20px;
+  padding: 40px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.testimonials .content .box .imgBx {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  margin-bottom: 20px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.testimonials .content .box .text {
+  text-align: center;
+}
+
+.testimonials .content .box .text p {
+  color: #666;
+  font-style: italic;
+}
+
+.testimonials .content .box .text h3 {
+  margin-top: 20px;
+  color: #ff0157;
+  font-size: 1em;
+  font-weight: 600;
+}
+
 /* ------------ CONTACT SECTION ------------ */
