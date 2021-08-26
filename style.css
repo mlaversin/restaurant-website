@@ -454,8 +454,19 @@ header .navigation li a:hover {
 }
 
 @media (max-width: 480px) {
-  .banner .content h2 {
+  .banner .content h1 {
     font-size: 2.2em;
-    color: #fff;
+    margin-bottom: 60px;
+  }
+  .banner .content p {
+    margin-bottom: 60px;
+  }
+  .experts h3 {
+    text-align: center;
+  }
+  .contact-form .submit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
