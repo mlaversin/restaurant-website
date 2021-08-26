@@ -51,12 +51,26 @@ h2 span {
   font-size: 1.5em;
 }
 
+h3 {
+  font-weight: 400;
+  color: #111;
+}
+
 .title {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 /* ------------ HEADER ------------ */
@@ -168,20 +182,12 @@ header .navigation li a:hover {
   height: 100%;
 }
 
-.row .col50 .imgBx img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
 /* ------------ MENU SECTION ------------ */
 
 .menu .content {
   display: flex;
   justify-content: center;
-  flex-direction: row-reverse;
+  flex-direction: row;
   flex-wrap: wrap;
   margin-top: 40px;
 }
@@ -199,24 +205,34 @@ header .navigation li a:hover {
   height: 300px;
 }
 
-.menu .content .box .imgBx img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
 .menu .content .box .text {
   padding: 15px 0 5px;
 }
 
-.menu .content .box .text h3 {
-  font-weight: 400;
-  color: #111;
-}
 /* ------------ EXPERTS SECTION ------------ */
+
+.experts .content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-top: 40px;
+}
+
+.experts .content .box {
+  width: 250px;
+  margin: 15px;
+}
+
+.experts .content .box .imgBx {
+  position: relative;
+  width: 100%;
+  height: 300px;
+}
+
+.experts .content .box .text {
+  padding: 15px 0 5px;
+}
 
 /* ------------ TESTIMONIALS SECTION ------------ */
 
