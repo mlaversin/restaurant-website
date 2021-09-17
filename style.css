@@ -197,6 +197,11 @@ header .navigation li a:hover {
   margin: 20px;
   border: 15px solid #fff;
   box-shadow: 0 5px 35px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease-in-out;
+}
+
+.menu .content .box:hover {
+  transform: translateY(-10px);
 }
 
 .menu .content .box .imgBx {
@@ -335,15 +340,21 @@ header .navigation li a:hover {
   font-size: 1em;
   color: #fff;
   background: #ff0157;
-  display: inline-block;
+  display: block;
+  margin: 0 auto;
   text-transform: uppercase;
   text-decoration: none;
   letter-spacing: 2px;
   transition: 0.5s;
-  max-width: 100px;
+  max-width: 120px;
   font-weight: 500;
   border: none;
   cursor: pointer;
+}
+
+.contact-form .input-box input[type='submit']:hover {
+  letter-spacing: 6px;
+  max-width: 150px;
 }
 
 /* ------------ FOOTER ------------ */
